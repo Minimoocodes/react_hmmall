@@ -1,0 +1,99 @@
+ul {
+  list-style: none;
+}
+
+.nav_menu {
+  display: flex;
+}
+
+.nav_menu li {
+  padding: 10px;
+}
+
+.login_button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+
+.nav_menuwrap {
+  display: flex;
+  justify-content: center;
+}
+.nav_logo {
+  display: flex;
+  justify-content: center;
+}
+
+.search_wrap {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.nav_search {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  width: 180px;
+  padding: 0.5rem;
+}
+
+.search_input {
+  border: none;
+  margin-right: 3rem;
+}
+
+.product_image {
+  max-width: 100%;
+  transition: transform .2s;
+}
+
+.product_image:hover {
+  transform: scale(1.2);
+
+}
+
+.login_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+
+.input_wrap {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+  max-width: 25rem;
+}
+
+.login_wrap button{
+  width: 10rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: salmon;
+  border: none;
+}
+
+.item_details {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.text_details {
+  margin-top: 4rem;
+}
+
+.add_btn {
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  background-color: #dc3545;
+  border: none;
+}
